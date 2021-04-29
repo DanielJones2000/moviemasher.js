@@ -1,7 +1,7 @@
 {
-  "name": "@moviemasher/moviemasher.js",
-  "description": "JavaScript library for realtime, browser-based video and audio editing",
-  "version": "4.0.25",
+  "name": "moviemasher",
+  "description": "使用typescript对moviemasher.js库进行重写",
+  "version": "0.0.3",
   "keywords": [
     "video editor",
     "audio editor"
@@ -10,6 +10,12 @@
     "name": "Movie Masher",
     "email": "support@moviemasher.com"
   },
+  "contributors ":[
+    {
+      "name":"Daniel Jones",
+      "email":"danieljones2017@163.com"
+    }
+  ],
   "license": "MPL-2.0",
   "bugs": {
     "url": "https://github.com/moviemasher/moviemasher.js/issues"
@@ -22,5 +28,7 @@
   "dependencies": {
     "opentype.js": "=1.3.3",
     "scriptjs": "=2.5.9"
+  },
+  "devDependencies": {
   }
 }

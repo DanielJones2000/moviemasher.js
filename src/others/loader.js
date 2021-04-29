@@ -1,5 +1,7 @@
 /*global opentype:true*/
 /*global $script:true*/
+import opentype from 'opentype'
+import $script from 'scriptjs'
 Loader = {
   load_audio: function(url){
     if (! (Loader.requested_urls[url] || Loader.cached_urls[url])){

@@ -100,13 +100,13 @@ function mm_load() {
   if (canvas && MovieMasher && MovieMasher.supported) {
     mm_player = MovieMasher.player();
     // register the filters we use
-    MovieMasher.register(MovieMasher.Constant.filter, [
-      { "id":"color", "source": "../dist/filters/color.js" },
-      { "id":"drawtext", "source": "../dist/filters/drawtext.js" },
-      { "id":"overlay", "source": "../dist/filters/overlay.js" },
-      { "id":"scale", "source": "../dist/filters/scale.js" },
-      { "id":"setsar", "source": "../dist/filters/setsar.js" }
-    ]);
+    // MovieMasher.register(MovieMasher.Constant.filter, [
+    //   { "id":"color", "source": "../dist/filters/color.js" },
+    //   { "id":"drawtext", "source": "../dist/filters/drawtext.js" },
+    //   { "id":"overlay", "source": "../dist/filters/overlay.js" },
+    //   { "id":"scale", "source": "../dist/filters/scale.js" },
+    //   { "id":"setsar", "source": "../dist/filters/setsar.js" }
+    // ]);
     // register at least a default font, since we're allowing a module that uses fonts
     MovieMasher.register(MovieMasher.Constant.font, {
       "label": "Blackout Two AM",
