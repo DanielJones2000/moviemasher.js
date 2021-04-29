@@ -1,11 +1,9 @@
 {
-  "name": "@moviemasher/moviemasher.js",
+  "name": "moviemasher",
   "description": "JavaScript library for realtime, browser-based video and audio editing",
   "homepage": "https://github.com/moviemasher/moviemasher.js#readme",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "source": "src/index.js",
-  "version": "4.0.26",
+  "main": "dist/moviemasher.min.js",
+  "version": "0.0.5",
   "keywords": [
     "video editor",
     "audio editor"

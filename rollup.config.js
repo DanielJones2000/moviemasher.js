@@ -10,7 +10,7 @@ const input = ["src/index.js"];
 const url_options = {
   // by default, rollup-plugin-url will not handle font files
   include: ['**/*.woff', '**/*.woff2'],
-  // setting infinite limit will ensure that the files 
+  // setting infinite limit will ensure that the files
   // are always bundled with the code, not copied to /dist
   limit: Infinity,
 }
@@ -30,8 +30,6 @@ export default [
       file: `dist/moviemasher.min.js`,
       format: "umd",
       name: "MovieMasher", // this is the name of the global object
-      esModule: false,
-      exports: "named",
       sourcemap: true,
     },
   },
@@ -46,13 +44,11 @@ export default [
       {
         dir: "dist/esm",
         format: "esm",
-        exports: "named",
         sourcemap: true,
       },
       {
         dir: "dist/cjs",
         format: "cjs",
-        exports: "named",
         sourcemap: true,
       },
     ],
